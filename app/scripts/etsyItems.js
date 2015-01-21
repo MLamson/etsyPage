@@ -1,4 +1,4 @@
-var etsyItems = [{
+var etsyItems = {
 "count": 1735,
 "results": [
 {
@@ -4636,4 +4636,4 @@ var etsyItems = [{
 "effective_page": 1,
 "next_page": 2
 }
-}];
+};
