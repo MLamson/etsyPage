@@ -9,11 +9,6 @@ body {
   color: #333;
 }
 
-.container {
-  
-}
-
-
 header {
   background-color:pink;
 
@@ -27,23 +22,19 @@ header {
 
 }
 
+.itemBox{
+    width:300px;
+
+    background-color:red;
+}
 .mainSection {
+ float:left;
+}
+
   
  
-  float:left;
-  width: 1100px;
-  background-color:lightblue;
+  
 
-  img {
-    width:200px;
-  }
-}
-.itemBox {
-  background-color:orange;
-
-  width:300px;
-  height: 300px;
-}
 
 
 
