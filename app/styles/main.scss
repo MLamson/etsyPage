@@ -4,30 +4,62 @@
 
 // Custom Styles
 body {
-  // background: lightgrey;
+  background: HSLA(60, 17%, 95%, 1);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
 
 header {
-  background-color:pink;
+  margin-top: -50px;
+  background-color: white;
+  height: 80px;
 }
 
 .sidebar {
-  float:left;
-  width: 100px;
+  margin-top: 50px;
+  margin-right: 18px;
+  float: left;
+  width: 210px;
   height: 1100px;
-  background-color:green;
+  background-color: white;
+  margin-left: 230px;
+  border-radius: 3px;
 }
 
 .itemBox{
-    width:300px;
-    background-color:red;
+    margin: 10px;
+    float: left;
+    padding: 5px;
+    width: 224px;
+    height: 220px;
+    background-color: white;
+    font-size: 12px;
+        
+    img {
+      width:214px;
+      height:170px;
+    }
 }
 .mainSection {
- float:left;
+  margin-top: 50px;
+  width:1300px;
+  background-color:HSLA(60, 17%, 95%, 1);
+  
+
 }
 
+.container {
+  min-width:1300px;
+  margin:50px auto;
+}
+
+.titleSpace {
+
+  display:block;
+  overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;  
+}
   
  
   

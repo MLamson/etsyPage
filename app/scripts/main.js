@@ -1,19 +1,48 @@
-console.log('The Iron Yard Rocks');
+console.log('Duckies and bunnies');
 
 
+	var itemUrl;
+	var itemPic;
+	var itemTitle;
+	var itemPrice;
+	var shopName;
+	var currencyCode;
 
+	var itemContent;
+  
 etsyItems.results.forEach(function(item){
 
-	$('.mainSection').addClass('itemBox');
-	$('.itemBox').append('<a href="' + item.url + '" ><img src="' + item.Images[0].url_170x135 + '"></a>');
-	$('.itemBox').append('<span>' + item.title + '</span>');
-	$('.itemBox').append('<span>' + item.login_name + '</span><span>' + item.price + '</span');
+	
+	currencyCode = item.currency_code;
+  itemContent = '<div class="itemBox">';
+
+	$('.mainSection').append(itemContent + '<a href="' + item.url + '" ><img src="' + item.Images[0].url_170x135 + '"></a> <span class="titleSpace">' + item.title + '</span><span>' + item.Shop.shop_name + '</span><span>' + item.price + '</span><span>' + currencyCode + '</span>');
+	
+});
+	
 
 
- });
-	//$('.mainSection').append('<img src="' + item.Images[0].url_170x135 + '">');
 
-	//<a href="samesite.htm"><img src="image.gif"></a>
+
+
+
+// itemContent = '<div class-"item">';
+// itemContent += '<img src="' + itemPic + ' ">';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // url
@@ -21,10 +50,7 @@ etsyItems.results.forEach(function(item){
 // title
 // login_name
 // price
-
-
-
-
+ 
 
 // var woodWood = items.filter(function(isWood){
 //  		return isWood.materials.indexOf('wood') > 0;
@@ -33,3 +59,8 @@ etsyItems.results.forEach(function(item){
 //  	woodWood.forEach(function(item){
 // 			console.log(item.title);
 // 		});
+//$('.mainSection').append('<img src="' + item.Images[0].url_170x135 + '">');
+
+	//<a href="samesite.htm"><img src="image.gif"></a>
+
+
