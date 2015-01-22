@@ -4,21 +4,16 @@ console.log('The Iron Yard Rocks');
 
 etsyItems.results.forEach(function(item){
 
+	$('.mainSection').addClass('itemBox');
+	$('.itemBox').append('<a href="' + item.url + '" ><img src="' + item.Images[0].url_170x135 + '"></a>');
+	$('.itemBox').append('<span>' + item.title + '</span>');
+	$('.itemBox').append('<span>' + item.login_name + '</span><span>' + item.price + '</span');
 
 
-	$('.mainSection').append('<a href="' + item.url + '" ><img src="' + item.Images[0].url_170x135 + '"></a>');
-	$('.mainSection').append('<span>' + item.title + '</span>');
-	$('.mainSection').append('<span>' + item.login_name + '</span><span>' + item.price + '</span')
-
-
-
+ });
 	//$('.mainSection').append('<img src="' + item.Images[0].url_170x135 + '">');
 
 	//<a href="samesite.htm"><img src="image.gif"></a>
-
-	
-});
-
 
 
 // url
