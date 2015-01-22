@@ -23,16 +23,46 @@
     <div class="container">
 
     <header>
-      <span>ETSY</span>
+      <span class="iconName">Etsy</span>
+
+      <form class="searchText">  
+      <input type="text" id="input_area" />
+      <input class="button" type="submit" value="Submit">   
+      </form>
+
+      <form class = "browseOptions">
+        <label for="select_element"></label>
+            <select name="select_element">
+                <option value="" disabled selected>Browse</option>
+                <option value="1">New Year's</option>
+                <option value="2">Valentine's Day</option>
+                <option value="3">Gift Ideas</option>
+                <option value="line" disabled></option>
+                <option value="1">Art</option>
+                <option value="2">Home & Living</option>
+                <option value="3">Mobile Accessories</option>
+                <option value="jewelry">Jewelry</option>
+            </select>
+      </form>
+
+      <a href="#">Help</a>
+
+      <a href="#">Register</a>
+
+      <input class="button" type="submit" value="Sign In">
+
+      <a href=""><img src="">Cart</a>
+
     </header>
 
     <div class="sidebar">
 
-        <form action="">
-            <input type="radio" name="itemChoice" value="allItems">All Items<br/>
-            <input type="radio" name="itemChoice" value="handmade">Handmade<br/>
-            <input type="radio" name="itemChoice" value="vintage">Vintage<br/>
-            <input type="radio" name="itemChoice" value="craftSupplies">Crat Supplies
+        <form action="" class="radioButtons">
+            <span>Item Type</span><br/><br/>
+            <input type="radio" name="itemChoice" value="allItems">All Items<br/><br/>
+            <input type="radio" name="itemChoice" value="handmade">Handmade<br/><br/>
+            <input type="radio" name="itemChoice" value="vintage">Vintage<br/><br/>
+            <input type="radio" name="itemChoice" value="craftSupplies">Craft Supplies
         </form>
       
     </div>

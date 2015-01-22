@@ -10,9 +10,27 @@ body {
 }
 
 header {
+  padding-top: 20px;
+  vertical-align: center;
   margin-top: -50px;
   background-color: white;
   height: 80px;
+
+  .iconName {
+    padding-right: 17px;
+    float: left;
+    font-size: 30px;
+    color: HSLA(17, 68%, 49%, 1);
+    margin-left: 225px;
+  }
+ .searchText {
+ 
+  float: left;
+ } 
+.browseOptions{
+  
+  float:left;
+}
 }
 
 .sidebar {
@@ -60,7 +78,11 @@ header {
     text-overflow:ellipsis;
     white-space: nowrap;  
 }
-  
+.radioButtons {
+  font-size: small;
+  padding-top: 15px;
+  padding-left: 15px;
+} 
  
   
 
