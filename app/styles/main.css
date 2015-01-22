@@ -21,6 +21,7 @@ header {
   background-color: red; }
 
 .mainSection {
+  clear: both;
   float: left; }
 
 /*# sourceMappingURL=main.css.map */
