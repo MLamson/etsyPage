@@ -17,11 +17,17 @@ etsyItems.results.forEach(function(item){
   itemContent = '<div class="itemBox">';
 
 	$('.mainSection').append(itemContent + '<a href="' + item.url + '" ><img src="' + item.Images[0].url_170x135 + '"></a> <span class="titleSpace">' + item.title + '</span><span>' + item.Shop.shop_name + '</span><span>' + item.price + '</span><span>' + currencyCode + '</span>');
-	
 });
 	
 
+// 	$('.itemBox').hover(function() {$('this').append'<img src="https://raw.githubusercontent.com/tiy-atl-js-q1-2015/Assignments/master/Assignment%2009/assets/heart.png"'
+// });
 
+
+// $( "li.fade" ).hover(function() {
+//   $( this ).fadeOut( 100 );
+//   $( this ).fadeIn( 500 );
+// });
 
 
 
