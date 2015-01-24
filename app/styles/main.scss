@@ -35,30 +35,66 @@ header {
 }
 
 .sidebar {
+  clear:both;
   margin-top: 50px;
   margin-right: 18px;
   float: left;
   width: 210px;
-  height: 1100px;
+  height: 2100px;
   background-color: white;
   margin-left: 230px;
   border-radius: 3px;
 }
 
+.sideBar2{
+  padding-top: 1499px;
+  width: 210px;
+  height: 218px;
+  background-color: HSLA(60, 17%, 95%, 1);
+  margin-top: 200px;
+}
+
 .itemBox{
+    border-radius:3px;
     margin: 10px;
     float: left;
     padding: 5px;
     width: 224px;
     height: 220px;
     background-color: white;
-    font-size: 12px;
+    font-size: 13px;
         
     img {
       width:214px;
       height:170px;
     }
+    .curCode{
+      padding-top:4px;
+      padding-left:3px;
+      float:right;
+  color:HSLA(98, 50%, 52%, 1);
+  }
+    .priceColor{
+      padding-top:4px;
+      float: right;
+      color:HSLA(98, 50%, 52%, 1);
+    }
+    .shopName{
+      float:left;
+      padding-top:4px;
+      color:HSLA(300, 1%, 70%, 1);
+    }
+    .shopName:hover{
+      text-decoration: underline;
+    }
+}
+.itemBox:hover{
 
+  // background-position:top;
+  // display:block;
+  background-image: url(https://github.com/tiy-atl-js-q1-2015/Assignments/blob/master/Assignment%2009%20*/assets/heart.png);
+  //background-color:purple;
+  //background:transparent;
 }
   
 
@@ -76,17 +112,29 @@ header {
 }
 
 .titleSpace {
-
+  text-decoration: none;
+  color:HSLA(0, 2%, 41%, 1);
   display:block;
   overflow:hidden;
     text-overflow:ellipsis;
     white-space: nowrap;  
+}
+.titleSpace:hover{
+  text-decoration: underline;
 }
 .radioButtons {
   font-size: small;
   padding-top: 15px;
   padding-left: 15px;
 } 
+.filterColor{
+  float:left;
+  list-style-type: none;
+li {
+  float:left;
+}
+
+}
  
   
 
