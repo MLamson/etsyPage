@@ -4,7 +4,7 @@
 
 // Custom Styles
 body {
-  background: HSLA(60, 17%, 95%, 1);
+  background: border: 1px solid HSLA(193, 53%, 54%, 1);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
@@ -15,6 +15,8 @@ header {
   margin-top: -50px;
   background-color: white;
   height: 80px;
+  border: 3px solid black;
+
 
 
   .iconName {
@@ -57,13 +59,57 @@ header {
   }
  } 
     .browseOptions{
+      select{
+        height: 34px;
+        background-color: white;
+        width: 78px;
+        font-size: 13px;
+      }
       float:left;
+      padding-left: 19px;
+      /* height: 54px; */
+      line-height: 31px;
     }
   }
 .showResults{
   line-height: 20px;
   background-color:HSLA(60, 17%, 95%, 1);
 }
+
+.cart{
+  float:left;
+  padding-left:10px;
+  line-height: 34px;
+}
+
+.signInButton {
+  float:left;
+  margin-left: 13px;
+  color:HSLA(193, 53%, 54%, 1);
+  background-color:white;
+  line-height: 34px;
+  padding-top: 0px;
+  border: 1px solid HSLA(193, 53%, 54%, 1);
+  border-radius: 3px;
+  }
+.register{
+  float:left;
+  padding-left:10px;
+  color:HSLA(193, 53%, 54%, 1);
+  text-decoration: none;
+  line-height: 34px;
+}
+.help{
+  line-height: 34px;
+  float:left;
+  padding-left: 192px;
+  color:HSLA(193, 53%, 54%, 1);
+  text-decoration: none;
+}
+
+}//end of header brace
+
+
 .sidebar {
   clear:both;
   margin-top: 50px;
@@ -92,7 +138,7 @@ header {
     width: 224px;
     height: 220px;
     background-color: white;
-    font-size: 13px;
+    font-size: 12px;
         
     img {
       width:214px;
@@ -124,7 +170,6 @@ header {
 .itemBox:hover{
     .hoverPics {
       visibility: visible;
-      background-color:purple;
     }
     .hoverPics2{
       visibility: visible;
@@ -140,7 +185,7 @@ header {
   width:30px;
   height: 30px;
   background-color:white;
-  // visibility: hidden;
+  visibility: hidden;
     img{
       padding: 6px;
       width: 30px;
@@ -156,7 +201,7 @@ header {
   width:30px;
   height: 30px;
   background-color:white;
-  // visibility: hidden;
+  visibility: hidden;
     img{
       width: 17px;
       height: 17px; 
