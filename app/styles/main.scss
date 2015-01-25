@@ -18,22 +18,52 @@ header {
 
 
   .iconName {
+
     padding-right: 17px;
     float: left;
     font-size: 30px;
     color: HSLA(17, 68%, 49%, 1);
     margin-left: 225px;
   }
+  #input_area{
+    width: 268px;
+    border-radius: 3px;
+    line-height: 13px;
+    padding-left: 9px;
+    font-size: 15px;
+    vertical-align: middle;
+    height: 34px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 34px;
+  }
  .searchText {
- 
-  float: left;
+    display: inline-table;
+    float: left;
+  input.button{
+    vertical-align: top;
+    height: 34px;
+    width: 81px;
+    background-color: HSLA(193, 53%, 54%, 1);
+    color: white;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-color: HSLA(193, 53%, 54%, 1);
+  }
+  input:focus{
+    outline: none;
+    border: 1px solid HSLA(193, 53%, 54%, 1);
+   // box-shadow: 0 0 10px blue;
+  }
  } 
-.browseOptions{
-  
-  float:left;
+    .browseOptions{
+      float:left;
+    }
+  }
+.showResults{
+  line-height: 20px;
+  background-color:HSLA(60, 17%, 95%, 1);
 }
-}
-
 .sidebar {
   clear:both;
   margin-top: 50px;
@@ -67,13 +97,14 @@ header {
     img {
       width:214px;
       height:170px;
-    }
+    }//img close
     .curCode{
       padding-top:4px;
       padding-left:3px;
       float:right;
-  color:HSLA(98, 50%, 52%, 1);
-  }
+      color:HSLA(98, 50%, 52%, 1);
+  }//curCode close
+
     .priceColor{
       padding-top:4px;
       float: right;
@@ -87,23 +118,30 @@ header {
     .shopName:hover{
       text-decoration: underline;
     }
-}
-.itemBox:hover{
-
-  // background-position:top;
-  // display:block;
-  background-image: url(https://github.com/tiy-atl-js-q1-2015/Assignments/blob/master/Assignment%2009%20*/assets/heart.png);
-  //background-color:purple;
-  //background:transparent;
-}
+    
+}//itembBox close
+.hoverPics{
+  float:right;
+  position: absolute;
+  margin-top: -188px;
+  width:30px;
+  height: 30px;
+  background-color:white;
+  visibility: hidden;
+  img{
   
+    width: 17px;
+height: 17px;
+   
+  }
+}
+
+ 
 
 .mainSection {
   margin-top: 50px;
   width:1300px;
   background-color:HSLA(60, 17%, 95%, 1);
-  
-
 }
 
 .container {
@@ -119,9 +157,11 @@ header {
     text-overflow:ellipsis;
     white-space: nowrap;  
 }
+
 .titleSpace:hover{
   text-decoration: underline;
 }
+
 .radioButtons {
   font-size: small;
   padding-top: 15px;
@@ -133,6 +173,13 @@ header {
 li {
   float:left;
 }
+
+.itemBox:hover{
+    .hoverPics {
+      visibility: visible;
+      background-color:purple;
+    }
+  } 
 
 }
  
