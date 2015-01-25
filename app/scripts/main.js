@@ -18,7 +18,7 @@ etsyItems.results.forEach(function(item){
 
 	$('.mainSection').append(itemContent + '<a href="' + item.url + '" ><img src="' + item.Images[0].url_170x135 + '"></a> <a href="' + item.url + '"<span class="titleSpace">' + item.title + '</span></a><a href="' + item.Shop.url + '"><span class="shopName">' + item.Shop.shop_name + '</span></a><span class="curCode">' + currencyCode + '</span><span class="priceColor">' + '$' + item.price + '</span>');
 	$('.itemBox').append('<div class="hoverPics"><img src = "../scripts/heart.png"></div>');
-	
+	$('.itemBox').append('<div class="hoverPics2"><img src = "../scripts/hamburger.png"></div>');
 });
 
 //$('imageBox').append('background-image: url(https://github.com/tiy-atl-js-q1-2015/Assignments/blob/master/Assignment%2009%20*/assets/heart.png');

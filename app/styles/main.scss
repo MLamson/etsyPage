@@ -120,21 +120,48 @@ header {
     }
     
 }//itembBox close
+
+.itemBox:hover{
+    .hoverPics {
+      visibility: visible;
+      background-color:purple;
+    }
+    .hoverPics2{
+      visibility: visible;
+      background-color:blue;
+    }
+  } 
+
 .hoverPics{
   float:right;
   position: absolute;
   margin-top: -188px;
+  margin-left: 154px;
   width:30px;
   height: 30px;
   background-color:white;
-  visibility: hidden;
-  img{
-  
-    width: 17px;
-height: 17px;
-   
-  }
-}
+  // visibility: hidden;
+    img{
+      padding: 6px;
+      width: 30px;
+      height: 30px;
+    }
+}// close .hoverPics
+
+.hoverPics2{
+  float:right;
+  position: absolute;
+  margin-top: -188px;
+  margin-left: 184px;
+  width:30px;
+  height: 30px;
+  background-color:white;
+  // visibility: hidden;
+    img{
+      width: 17px;
+      height: 17px; 
+    }
+}// close .hoverPics2
 
  
 
@@ -174,12 +201,7 @@ li {
   float:left;
 }
 
-.itemBox:hover{
-    .hoverPics {
-      visibility: visible;
-      background-color:purple;
-    }
-  } 
+
 
 }
  
