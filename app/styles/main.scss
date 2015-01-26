@@ -7,7 +7,7 @@ body {
   background-color: HSLA(60, 17%, 95%, 1);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
-}
+
 
 header {
   padding-top: 20px;
@@ -120,11 +120,8 @@ header {
   margin-left: 230px;
   border-radius: 3px;
   font-size: 14px;
-  text-decoration: none;
+  color:SLA(193, 53%, 54%, 1);
 }//sidebar close brace
-.categories{
-  text-decoration: none;
-}
 .sideBar2{
   padding-top: 1499px;
   width: 210px;
@@ -176,7 +173,6 @@ header {
     }
     .hoverPics2{
       visibility: visible;
-      background-color:blue;
     }
   } 
 
@@ -256,6 +252,6 @@ li {
   
 
 
-
+}
 
 
